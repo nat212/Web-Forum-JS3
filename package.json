@@ -9,7 +9,7 @@
     "sqrt": "node sqrt.js 10",
     "format": "prettier .",
     "lint": "eslint .",
-    "bundle": "babel to_bundle --out-dir bundled",
+    "bundle": "webpack",
     "transpile": "tsc",
     "prepare": "husky install"
   },
@@ -35,6 +35,8 @@
     "jest": "^29.6.2",
     "lint-staged": "^13.2.3",
     "prettier": "3.0.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
   }
 }

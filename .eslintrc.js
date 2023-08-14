@@ -11,7 +11,7 @@ module.exports = {
       env: {
         node: true,
       },
-      files: [".eslintrc.{js,cjs}"],
+      files: [".eslintrc.{js,cjs}", "webpack.config.{js,cjs}"],
       parserOptions: {
         sourceType: "script",
       },
@@ -19,6 +19,15 @@ module.exports = {
     {
       env: { "jest/globals": true },
       files: ["test.js"],
+    },
+    {
+      files: ["to_bundle/**/*.js"],
+      parserOptions: {
+        sourceType: "module",
+      },
+      env: {
+        node: true,
+      },
     },
   ],
   parserOptions: {
