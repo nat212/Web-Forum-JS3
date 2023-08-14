@@ -6,6 +6,7 @@ module.exports = {
   },
   extends: ["eslint:recommended", "prettier"],
   plugins: ["jest"],
+  ignorePatterns: ["typescript-demo/**/*"],
   overrides: [
     {
       env: {

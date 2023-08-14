@@ -1,6 +1,0 @@
-{
-  "include": ["to_transpile/**/*.ts"],
-  "compilerOptions": {
-    "outDir": "transpiled"
-  }
-}
